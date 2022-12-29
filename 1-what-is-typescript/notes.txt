@@ -1,0 +1,5 @@
+What is Typescript?
+- Typescript is a superset build at Java Script
+- Typescript have a additional features like types declarations af a variable
+- Can be use with frameworks/libs like: Express and React
+- Need be compiled in Java Script, dont execute in TS

@@ -1,0 +1,4 @@
+Challenge 01
+- Let's create a new project to pratice the compilation and executation of code
+- The challenge is create a function that acept two arguments, only number type
+- Show the sum between the two

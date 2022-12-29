@@ -1,0 +1,5 @@
+Installing Typescript
+- To install Ts we will use NPM
+- The name of package is typescript
+- Let's add global way with the flag -g
+- From the installation we have how to compiled/execute Ts anywhere on computer, with the command tsc 

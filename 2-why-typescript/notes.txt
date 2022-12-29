@@ -1,0 +1,6 @@
+Why use Typescript?
+- Reliability (types)
+- Additional features in JS, like interfaces
+- With TS we can verify errors before code execution in development
+- Let Js more explicit, decreasing bugs
+- We waste less time with bugs
