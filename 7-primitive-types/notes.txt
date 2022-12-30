@@ -1,0 +1,5 @@
+Primitive types
+- There so many types in TS, let's begin with primitive types
+- Are they: number, string and boolean;
+- All of them are inserted with lowercase
+- And as obvious, they serve for: numbers, texts and booleans

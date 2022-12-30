@@ -1,0 +1,6 @@
+What is types?
+- In typescript the principal function is set types for datas
+- This will increasing the quality of your code
+- This will help us on development
+- We need define correctly the type of variables, type of functions return, type of data too
+- Consequently we will have a better software, and this is the principal function in TS

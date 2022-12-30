@@ -1,0 +1,5 @@
+Knowing number type
+- The type number ensures that the data be only a number;
+- Also change the value for other number;
+- The Typescript enables insert numeric methods;
+- Let's pratice!
