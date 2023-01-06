@@ -1,0 +1,5 @@
+Knowing Type Any
+- Any type transimte to TS anything of type
+- We have to avoid this type, because goes against the porpouse of TS
+- Two cases of use: the type really don't care and multiples types of data inside and array
+- Let's pratice

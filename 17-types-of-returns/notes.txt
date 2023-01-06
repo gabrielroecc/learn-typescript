@@ -1,0 +1,5 @@
+Types of Returns
+- Returns also can be define with types
+- To this we use the syntax function nameOfFunction():number{}
+- This function returns a number
+- Let's pratice!

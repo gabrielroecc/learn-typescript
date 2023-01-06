@@ -1,0 +1,5 @@
+Knowing boolean type
+- Boolean type ensures that all of datas be a true or false
+- We can insert only booleans in to variable
+- Also change the value to another boolean
+- Let's pratice!

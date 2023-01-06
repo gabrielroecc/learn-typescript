@@ -1,0 +1,5 @@
+Challenge 02
+- Declare a variable that recive a number
+- Convert this number to string in a new variable
+- This convertion variable have to typed to Inference
+- Show this number in a string using template string

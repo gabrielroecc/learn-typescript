@@ -1,0 +1,5 @@
+Types of Function Parameters
+- We can define he type of each parameter of a Function
+- The syntax is: function nameOfFunction(name:string){}
+- Now we can give the parameter name, only as text
+- Let's pratice!

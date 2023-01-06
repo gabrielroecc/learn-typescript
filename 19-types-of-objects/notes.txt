@@ -1,0 +1,5 @@
+Type of objects
+- We can define types for objects
+- A sintax is: {prop:type , prop:type2}
+- That means that we are determining wich types the objects properties have
+- Let's pratice

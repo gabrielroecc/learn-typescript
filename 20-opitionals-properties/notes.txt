@@ -1,0 +1,5 @@
+Opitional Properties
+- Sometimes the object don't have all of properties that can have
+- Because this we have the opitionals Properties
+- To have this result we have to put an quote point:{name:stringm surName?:string}
+- Let's pratice!

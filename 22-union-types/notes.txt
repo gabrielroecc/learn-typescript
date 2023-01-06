@@ -1,0 +1,5 @@
+Union Types
+- Union Types is an alternative better than any
+- Where we can define two types for a data
+- the sintax: number | string
+- Let's pratice!

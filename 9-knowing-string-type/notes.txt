@@ -1,0 +1,6 @@
+Knowing string type
+- String type ensures that the data be a text
+- We can insert only texts
+- Also change the value to other text
+- Typescript also enables insert text methods
+- Let's pratice!

@@ -1,0 +1,6 @@
+TS and the aplication
+- Maybe you already got, but programming with TS is like a pair programming
+- We have the code to tell us if something is wrong
+- After compilation, TS don't have effect, they can't help us after compile
+- So there is a compilation crash with errors
+- In additions to mistakes, TS also ensures alerts

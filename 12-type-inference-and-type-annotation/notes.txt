@@ -1,0 +1,5 @@
+Type Inference and Type Annotation
+- These two concepts will accompany us at all development aplication progress
+- Annotation is when we define the data type manually
+- Inference is when the TS tell us the data type
+- Let's pratice

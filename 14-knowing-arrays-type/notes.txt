@@ -1,0 +1,6 @@
+Knowing Arrays Type
+- We can specify an array as type
+- If we have an array of numbers: number[]
+- If we have an array of string: string[]
+- That happens because arrays usualy have only one type of data in your itens
+- Let's pratice!

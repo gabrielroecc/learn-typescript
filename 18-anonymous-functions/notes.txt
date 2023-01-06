@@ -1,0 +1,5 @@
+Anonynoys function
+- Typescript can help us with anonymous function
+- Doing a validation of code typed, give us tipes of possibles problems
+- Exemple: methods dosen't exist
+- Let's pratice

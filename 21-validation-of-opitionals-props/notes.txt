@@ -1,0 +1,5 @@
+Validation of Opitional Props
+- When props is optional, we need to create an Validation
+- This happens because TS don't help us with that, because TS doesen't control the value that we recive
+- For that we use a conditional if, and can resolve the situation
+- Let's pratice
