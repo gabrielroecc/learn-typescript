@@ -1,0 +1,5 @@
+Interfaces
+- Another way to name a type of an object
+- We can define a name to type
+- And also choose the properties and his types
+-Let's pratice

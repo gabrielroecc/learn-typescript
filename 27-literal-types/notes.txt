@@ -1,0 +1,3 @@
+Literal Types
+- Literal types is a resource that allow put values as types
+- Let's pratice

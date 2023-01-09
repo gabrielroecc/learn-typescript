@@ -1,0 +1,5 @@
+Diference between type alias and interfaces
+- In the most os times we can choose between any of the resources
+- The only diference is that interface can be changed along the code, but type alias no
+- that is, if we intend change the type, we have to use the interface
+- Let's pratice

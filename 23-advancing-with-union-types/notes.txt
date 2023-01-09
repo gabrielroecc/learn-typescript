@@ -1,0 +1,5 @@
+Advancing with Union Types
+- We can use conditions to valid type of union types
+- With that it's possible take diferent ways, based on data type
+- To check the type, we use typeo()
+- Let's pratice

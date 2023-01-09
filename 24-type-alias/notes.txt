@@ -1,0 +1,5 @@
+Type Alias
+- Type alias it's a resource that allow create a type and define what this verify
+- That way we have a way easier to call it rather than create complex expressions with Union Types
+- Let's pratice
+

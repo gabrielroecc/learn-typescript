@@ -1,0 +1,5 @@
+Non-null Assertion Operator
+- Sometimes TS can evidence an error, based on a value that in the moment don't be available
+- But, if we know that value will be filled, we can avoid the error
+- Using this "!"
+-Let's pratice
