@@ -1,26 +1,26 @@
 interface Point {
-  x:number
-  y:number
-  z:number
+  x: number;
+  y: number;
+  z: number;
 }
-function showCoords(coord:Point){
-  console.log(coord.x)
-  console.log(coord.y)
-  console.log(coord.z)
+function showCoords(coord: Point) {
+  console.log(coord.x);
+  console.log(coord.y);
+  console.log(coord.z);
 }
-showCoords({x:1, y:2, z:3})
+showCoords({ x: 1, y: 2, z: 3 });
 
-interface Dog{
-  color?:string,
-  age?:number,
-  breed?:string,
-  weight?:number,
-  gender:string,
-  vaccinated?:boolean
+interface Dog {
+  color?: string;
+  age?: number;
+  breed?: string;
+  weight?: number;
+  gender: string;
+  vaccinated?: boolean;
 }
-function chooseDog(dogInformations:Dog){
-  console.log(dogInformations)
+function chooseDog(dogInformations: Dog) {
+  console.log(dogInformations);
 }
 
-let objDog = {name:"Dog",gender:"Male", vaccinated:true}
-chooseDog(objDog)
+let objDog = { name: "Dog", gender: "Male", vaccinated: true };
+chooseDog(objDog);

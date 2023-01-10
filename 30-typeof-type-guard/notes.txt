@@ -1,0 +1,6 @@
+Typeof Type Guard
+- Type Guard basicly is a type validation using typeof
+- That way we could compare the operator return with a possible type
+- All os data comes as string, for example: "string", "number", "boolean"
+- And from there we will realize the Narrowing
+- Let's pratice

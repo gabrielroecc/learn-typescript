@@ -1,0 +1,5 @@
+What is Narrowing
+- Narrowing is a resource to indentify type of data
+- thus giving a different direction to the program execution, based on wich type was identify
+- There situations that the types can be unpredictable, and we want execute something to each of possibility
+- That is also important to avoid compilation errors, identify and resolve the possibles errors in the development
