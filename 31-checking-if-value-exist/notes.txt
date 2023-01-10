@@ -1,0 +1,4 @@
+Checking if value exist
+- In Js we can put a variable inside if, and if there some value we get a "ture"
+- That way we can realize the narrowing too, is another estrategy very usefull
+- Let's pratice!
