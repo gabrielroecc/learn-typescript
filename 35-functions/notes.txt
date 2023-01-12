@@ -1,0 +1,13 @@
+1 - Function that returns nothing
+- We can have functions that don't returns values
+- Wich type of data is indicated to use in this situation?
+- In this case, we ill use void!
+- It will tell to TS that we don't have a return value
+- Let's pratice!
+
+
+2 - Callback 
+- We can insert a callback function as function argument
+- Inside it we can define the type of argument allow for callback
+- And also the return type
+- Let's pratice!
