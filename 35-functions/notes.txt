@@ -10,4 +10,5 @@
 - We can insert a callback function as function argument
 - Inside it we can define the type of argument allow for callback
 - And also the return type
+- Callback is an asynchronous function, that is does not follow the natural flow of code
 - Let's pratice!

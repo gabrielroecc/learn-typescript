@@ -2,50 +2,47 @@
 function withoutReturn() {
     console.log("This function don't have return");
 }
-// 2 - Callback
-function greeting(name) {
-    alert("Olá " + name);
+// 2 - Callback /////////////////////////////////////////
+function myFunction() {
+    //this is a normal function
+    //Do Something
+    console.log("My funtion executed");
 }
-function processUserInput(putUsername) {
-    var name = prompt("Por favor insira seu nome.");
-    if (name) {
-        putUsername(name);
-    }
-}
-// processUserInput(greeting);
-//Same function in a diferent way
-var greet = function (name) { return alert("Hello, ".concat(name)); };
-var enterANewUser = function (callback) {
-    var newUserName = prompt("Put an username");
-    callback(newUserName);
+var myFunctionInsideAVariable = function () {
+    //This is a exalmple of funciton expression, function inside a variable
+    //Do something
+    console.log("My funtion executed");
 };
-// enterANewUser(greet);
-var callback = function (e) { return alert("Was happen an event ".concat(e.type)); };
-// window.addEventListener("click", callback);
-function sum(x, y) {
-    return x + y;
-}
-function calculate(x, y, operator) {
-    operator(x, y);
-}
-// calculate(10, 10, sum);
-var arr = [1, 2, 3];
-var newArr = arr.map(function (i) { return i + i; });
-// console.log(newArr);
-function greetingUsername(name) {
-    alert("Welcome ".concat(name));
-}
-function passwordRegistered() {
-    alert("Password Registered");
-    alert("Thanks for register!");
-}
-function registerUsername(callbackUsername) {
-    var username = prompt("Register an Username");
-    callbackUsername(username);
-}
-function registerPassword(callbackPassword) {
-    var password = prompt("Create a password");
-    callbackPassword(password);
-}
-registerUsername(greetingUsername);
-registerPassword(passwordRegistered);
+var myNamedFunctionInsideAVariable = function myNamedFunction() {
+    //This also is a exalmple of funciton expression, named function inside a variable
+    //Do something
+    console.log("My funtion executed");
+};
+var myArrowFunction = function () {
+    //This is a example of arrow function
+    //Do something
+    console.log("My funtion executed");
+};
+//Obs#1 - Function recives arguments and returns values
+var myFunction1 = function (message) {
+    //do something
+    console.log("My executed function", message);
+    return "My executed function" + message;
+};
+myFunction1("Hello, Gab");
+var multiply = function (number) {
+    //do something
+    console.log(number * number);
+    return number * number;
+};
+multiply(5);
+var greet = function (name) {
+    var atualTime = new Date("July 21, 1983 01:15:00").getHours();
+    if (atualTime <= 12)
+        return "Good Morning" + name;
+    if (atualTime <= 18)
+        return "Good Afternoon" + name;
+    return "Good Night";
+};
+greet("Gab");
+/////////////////////////////////////////////
