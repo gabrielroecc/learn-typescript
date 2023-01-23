@@ -12,3 +12,15 @@
 - And also the return type
 - Callback is an asynchronous function, that is does not follow the natural flow of code
 - Let's pratice!
+
+3 - Generic Functions
+- Is a strategy to qhen the the type of return is related to type of argument
+- For example: An item of an array can be string, boolean or number
+- Normaly are used leters like T or U to define the generics
+- Let's pratice!
+
+4 - Constraints in the Generic Functions
+- The generic functions can have a reduce escope using contraints
+- Basicly we limit the types that can be used in Generic
+- That makes our code be less comprehensive
+- Let's pratice! 
