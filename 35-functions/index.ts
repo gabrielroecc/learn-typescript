@@ -114,3 +114,9 @@ function biggestNumber<T extends string | number>(a: T, b: T) {
   return biggest;
 }
 console.log(biggestNumber(10, 11));
+
+//Especify type of arguments
+function mergeArray<T>(arr1: T[], arr2: T[]) {
+  return [...arr1, ...arr2]; // or arr1.concat(arr2)
+}
+console.log(mergeArray<number | string>([1, 2, 3], ["a", "b", "c"]));

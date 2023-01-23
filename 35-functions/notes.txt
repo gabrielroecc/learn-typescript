@@ -24,3 +24,9 @@
 - Basicly we limit the types that can be used in Generic
 - That makes our code be less comprehensive
 - Let's pratice! 
+
+5 - Especify type of argument
+- In Generic Functions we have to use parameters with similar types
+- But there is a possibility to also define the type of paremeters allow, with an especial sintax
+- This makes the validation of TS allow the type that was choosed
+- Let's pratice!
