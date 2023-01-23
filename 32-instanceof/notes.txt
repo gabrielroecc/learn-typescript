@@ -1,0 +1,5 @@
+Instanceof Operator
+- Besides of primitive types, we can use instanceof
+- Checking is a data pertences a class
+- And it will works also for our classes
+- Let's pratice

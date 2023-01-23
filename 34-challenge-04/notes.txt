@@ -1,0 +1,5 @@
+Challenge 03
+- let's create a function that receives feedback from users, we will need to use narrowing to recive the data
+- The possibilites are boolean and number
+- Will be sended numbers (1 to 5), create a message to each of this avaliation
+- Or false when user don't send feedback, create a message for this case too

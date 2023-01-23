@@ -1,0 +1,5 @@
+In Operator
+- In Operate is used to check if exist a priority in the object
+- Other resource interesting to narrowing
+- Properties also can be optional
+- Let's pratice
