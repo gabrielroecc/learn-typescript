@@ -13,6 +13,15 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 // // 2 - Callback /////////////////////////////////////////
 //1
 // const saudar = (nome: string, responder: (string) => void) => {
@@ -108,3 +117,12 @@ function biggestNumber(a, b) {
     return biggest;
 }
 console.log(biggestNumber(10, 11));
+//Especify type of arguments
+function mergeArray(arr1, arr2) {
+    return __spreadArray(__spreadArray([], arr1, true), arr2, true); // or arr1.concat(arr2)
+}
+console.log(mergeArray([1, 2, 3], ["a", "b", "c"]));
+//reduce
+var numbers = [1, 2, 3, 4, 5];
+var soma = numbers.reduce(function (total, atual) { return total + atual; });
+console.log("soma dos arrays " + soma);

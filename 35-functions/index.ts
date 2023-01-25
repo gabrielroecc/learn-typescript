@@ -120,3 +120,8 @@ function mergeArray<T>(arr1: T[], arr2: T[]) {
   return [...arr1, ...arr2]; // or arr1.concat(arr2)
 }
 console.log(mergeArray<number | string>([1, 2, 3], ["a", "b", "c"]));
+
+//reduce
+const numbers = [1, 2, 3, 4, 5];
+const soma = numbers.reduce((total, atual) => total + atual);
+console.log("soma dos arrays " + soma);
