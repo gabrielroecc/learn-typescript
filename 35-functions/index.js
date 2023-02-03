@@ -126,3 +126,49 @@ console.log(mergeArray([1, 2, 3], ["a", "b", "c"]));
 var numbers = [1, 2, 3, 4, 5];
 var soma = numbers.reduce(function (total, atual) { return total + atual; });
 console.log("soma dos arrays " + soma);
+var names = ["Daniel", "Maria", "Marta", "Juca", "João", "Jéssica"];
+var namesCount = names.reduce(function (count, nomeAtual) {
+    var firstLetter = nomeAtual[0].toLocaleLowerCase();
+    if (count[firstLetter]) {
+        //Perguntando = count (que é um objeto) tem o item D?
+        count[firstLetter]++; //Se tem, some o valor dele com mais 1
+    }
+    else {
+        count[firstLetter] = 1; // Se não tem CRIE um item D para ele e atribua o valor 1 a ele
+    }
+    return count;
+}, {});
+var pessoas = [
+    { nome: "Daniel", idade: 28 },
+    { nome: "Maria", idade: 29 },
+    { nome: "Marte", idade: 29 },
+];
+var porIdade = pessoas.reduce(function (pessoasIdade, pessoaAtual) {
+    if (pessoasIdade[pessoaAtual.idade]) {
+        pessoasIdade[pessoaAtual.idade].push(pessoaAtual.nome);
+    }
+    else {
+        pessoasIdade[pessoaAtual.idade] = [];
+        pessoasIdade[pessoaAtual.idade].push(pessoaAtual.nome);
+    }
+    return pessoasIdade;
+}, {});
+var numbersArray = [-10, 0, 2, 4];
+var doublePositive = numbersArray.reduce(function (arrAcumulator, currentNumber) {
+    if (currentNumber > 0) {
+        arrAcumulator.push(currentNumber * 2);
+    }
+    return arrAcumulator;
+}, []);
+console.log(doublePositive);
+///MAP MAP MAP MAP MAP
+var someNumbers = [1, 2, 3, 4, 5];
+var doubleNumbers = someNumbers.map(function (el) {
+    return el * 2;
+});
+console.log(doubleNumbers);
+var fahrenheit = [0, 32];
+var C = fahrenheit.map(function (elem) {
+    return Math.round(((elem - 32) * 5) / 9);
+});
+console.log(C);
